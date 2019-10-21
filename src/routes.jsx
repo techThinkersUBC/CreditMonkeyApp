@@ -4,12 +4,16 @@ import {
     Route,
 } from "react-router-dom";
 import Home from './Home/Home.jsx';
+import Score from './Score/Score.jsx';
 
 const Routes = () => (
     <Switch>
         Here
-        <Route path="/">
+        <Route path="/" exact>
             <Home />
+        </Route>
+        <Route path="/score" exact>
+            <Score />
         </Route>
     </Switch>
 );
