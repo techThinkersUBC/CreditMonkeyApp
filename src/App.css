@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -16,7 +16,8 @@
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 700;
+  color: #282c34;
 }
 
 .App-link {

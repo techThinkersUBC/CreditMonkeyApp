@@ -1,6 +1,7 @@
 
 .Home {
-    background-color: #09d3ac;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
     height: calc(100vh - 4rem);
 
     display: flex;
@@ -26,7 +27,8 @@
 }
 
 .SignInModalTitle {
-    color: #09d3ac;
+    color: #282c34;
+    font-weight: 700;
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
@@ -54,5 +56,5 @@
 }
 
 .SignInModalListOption:hover {
-    background-color: rgba(199, 247, 232, 0.5);
+    background-color: rgba(243, 190, 0, 0.2);
 }
